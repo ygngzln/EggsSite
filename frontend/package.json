@@ -11,5 +11,9 @@
     "eject": "react-scripts eject"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "brew": "^0.0.8",
+    "heroku": "^7.60.1"
+  }
 }
