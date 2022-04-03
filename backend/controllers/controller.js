@@ -13,7 +13,10 @@ const postData = asyncHandler(async(req, res) => {
         res.status(400)
         throw new Error('Posting data missing sword number')
     }
-
+    if(req.body.sword < 1 || req.body.sword > 5){
+        res.status(400)
+        throw new Error('Sword number out of possible range (1-5)')
+    }
     const sword = await Sword.create({
         sword: req.body.sword,
     });
