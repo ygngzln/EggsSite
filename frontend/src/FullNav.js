@@ -5,7 +5,7 @@ import Pagenav from './Pagenav.js'
 export default class FullNav extends Component {
   render() {
     return (
-        <div>
+        <div id="full">
             <Titlenav />
             <Pagenav />
         </div>

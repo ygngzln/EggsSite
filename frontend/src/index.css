@@ -78,6 +78,9 @@ body {
   padding: 18px;
   background-color: lightblue;
   top: 0;
+}
+
+#full {
   position: sticky;
 }
 
