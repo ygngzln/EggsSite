@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
-import React, { Component } from 'react'
 
-export default class Titlenav extends Component {
-  render(){
-        return (
-            <div className="title">
-                <Link to="/" id="webname" onClick={this.reset}>Egg's Website</Link>
-            </div>
-        )
-    }
+export default function Titlenav() {
+    return (
+        <div className="title">
+            <Link to="/" id="webname" onClick={this.reset}>Egg's Website</Link>
+        </div>
+    )
 }
