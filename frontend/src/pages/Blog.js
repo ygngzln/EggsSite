@@ -2,7 +2,7 @@ import FullNav from "../FullNav.js";
 
 export default function Blog(){
   return (
-    <div>
+    <>
         <FullNav />
         <div id="blogcontent">
             <div className="blogdate">- March 24th, 2022 -</div> <br />
@@ -20,6 +20,6 @@ export default function Blog(){
             <div className="blogdate">- April 3rd, 2022</div> <br />
             I finished the poll making and it updates the results well and saves the information to mongoDB. Very happy I was able to figure this stuff out, this is a huuge step in a direction that will take me on bigger projects. I also added some QOL to the poll by fixing some bugs, etc.
         </div>
-    </div>
+    </>
   )
 }

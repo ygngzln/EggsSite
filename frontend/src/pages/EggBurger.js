@@ -5,12 +5,12 @@ import FullNav from "../FullNav.js"
 
 export default function Header(){
   return (
-    <div>
+    <>
       <FullNav />
       <div id="burgouter">
         <div id="burg">
           <header>
-              Egg Burgers
+            Egg Burgers
           </header>
 
           <div id="img">
@@ -20,6 +20,6 @@ export default function Header(){
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }

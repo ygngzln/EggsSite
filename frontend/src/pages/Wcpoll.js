@@ -90,7 +90,7 @@ export default class Wcpoll extends Component {
 
   render(){
     return(
-      <div>
+      <>
         <FullNav />
         <div id="wctitle">
           WYNNCRAFT WEAPON POLL<br />
@@ -130,7 +130,7 @@ export default class Wcpoll extends Component {
             <div> Weapon 5 got <span className="vote" id="5v"></span> votes</div><br />
           </div>
         </div>
-      </div>
+      </>
     )
   }
 }
