@@ -1,4 +1,4 @@
-import './index.css';
+import './app.css';
 import FullNav from "./FullNav.js";
 
 export default function App() {

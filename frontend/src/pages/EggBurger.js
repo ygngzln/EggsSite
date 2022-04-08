@@ -1,6 +1,6 @@
-import Egg from "./egg.png"
-import Burger from "./burger.png"
-import Egg2 from "./egg2.png"
+import Egg from "./egg.avif"
+import Burger from "./burger.avif"
+import Egg2 from "./egg2.avif"
 import FullNav from "../FullNav.js"
 
 export default function Header(){

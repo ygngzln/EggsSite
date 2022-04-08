@@ -1,11 +1,11 @@
 import { Component } from "react";
 import axios from 'axios';
 import FullNav from "../FullNav.js";
-import wimg1 from "./wimg1.png";
-import wimg2 from "./wimg2.png";
-import wimg3 from "./wimg3.png";
-import wimg4 from "./wimg4.png";
-import wimg5 from "./wimg5.png";
+import wimg1 from "./wimg1.avif";
+import wimg2 from "./wimg2.avif";
+import wimg3 from "./wimg3.avif";
+import wimg4 from "./wimg4.avif";
+import wimg5 from "./wimg5.avif";
 
 const uri = '/api/swords/'
 var picked = false;
